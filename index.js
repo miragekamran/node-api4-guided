@@ -11,6 +11,7 @@ server.use(express.json())
 server.use(helmet())
 server.use(cors())
 
+
 server.use("/", welcomeRouter)
 server.use("/shouts", shoutsRouter)
 
